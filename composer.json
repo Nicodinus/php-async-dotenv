@@ -1,0 +1,26 @@
+{
+  "name": "nicodinus/php-async-dotenv",
+  "homepage": "https://github.com/Nicodinus/php-async-dotenv",
+  "description": "",
+  "type": "lib",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nicodinus",
+      "email": "nicodinus@yandex.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Nicodinus\\PhpAsync\\Dotenv\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.4.2",
+    "amphp/amp": "^2.5",
+    "amphp/file": "^1.0",
+    "vlucas/phpdotenv": "^5.3"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
